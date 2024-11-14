@@ -9,7 +9,7 @@ void main() {
   print("Price at 10% discount: $rebatePrices");
 
   // Enumerate pricing (+ tax on discounted prices)
-  double taxRate = 0.08; // 8% tax
+  double taxRate = 0.08;
   double grossSale = calcTotal(rebatePrices, taxRate: taxRate);
   print("Net Total: \$${grossSale.toStringAsFixed(2)}");
 
