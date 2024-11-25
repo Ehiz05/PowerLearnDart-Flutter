@@ -16,12 +16,10 @@ void main() {
   print(stateMessage + ', ' + country);
 
 // 1.3
-  // Function to reverse a string
   String reverseString(String input) {
     return input.split('').reversed.join('');
   }
 
-// Function to toggle the case of a string
   String toggleCase(String input) {
     return input.split('').map((char) {
       if (char == char.toUpperCase()) {
@@ -33,10 +31,8 @@ void main() {
   }
 
   // 1.4
-  // Reverse the string
   String reversed = reverseString(input);
 
-  // Toggle the case
   String toggled = toggleCase(input);
 
   print("Original String: $input");
